@@ -6,14 +6,14 @@ package com.example;
 public class Greeter {
 
   /**
-   * This is a constructor.
+   * @param someone the name of a persion
+   * @return greeting string
    */
   public Greeter() {
 
   }
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
