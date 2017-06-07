@@ -6,13 +6,15 @@ package com.example;
 public class Greeter {
 
   /**
-   * @param someone the name of a persion
-   * @return greeting string
+   * This is a constructor.
    */
   public Greeter() {
 
   }
-
+  /**
+   * @param someone the name of a persion
+   * @return greeting string
+   */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
